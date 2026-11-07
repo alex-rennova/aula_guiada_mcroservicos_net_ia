@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/aula_guiada_mcroservicos_net_ia.Api/aula_guiada_mcroservicos_net_ia.Api.csproj" />
+    <Project Path="src/aula_guiada_mcroservicos_net_ia.Application/aula_guiada_mcroservicos_net_ia.Application.csproj" />
+    <Project Path="src/aula_guiada_mcroservicos_net_ia.Domain/aula_guiada_mcroservicos_net_ia.Domain.csproj" />
+    <Project Path="src/aula_guiada_mcroservicos_net_ia.Infrastructure/aula_guiada_mcroservicos_net_ia.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/aula_guiada_mcroservicos_net_ia.IntegrationTests/aula_guiada_mcroservicos_net_ia.IntegrationTests.csproj" />
+    <Project Path="tests/aula_guiada_mcroservicos_net_ia.UnitTests/aula_guiada_mcroservicos_net_ia.UnitTests.csproj" />
+  </Folder>
+</Solution>
