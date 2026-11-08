@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101312">
+  <meta name="description" content="Laboratório de arquitetura do Banco ANFX. Aprenda microserviços com decisões explicadas, diagramas e referências ao código.">
+  <title>ANFX Lab — Arquitetura na prática</title>
+  <link rel="icon" href="./assets/anfx-mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./lessons.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a href="#lesson-content" class="skip">Pular para a aula</a>
+  <aside class="sidebar" id="sidebar" aria-label="Navegação das aulas">
+    <a class="brand" href="#boas-vindas"><img src="./assets/anfx-mark.svg" alt="" width="38" height="38"><span>ANFX<span class="brand-light"> / lab</span><small>ENGENHARIA EM CONSTRUÇÃO</small></span></a>
+    <div class="workspace-label"><span class="live-dot"></span> Banco ANFX <span class="edition">V.01</span></div>
+    <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Buscar uma aula…" autocomplete="off" aria-label="Buscar aulas"><kbd>/</kbd></label>
+    <div class="nav-heading">SUA JORNADA <span id="lesson-count"></span></div>
+    <nav id="lesson-nav" aria-label="Aulas do laboratório"></nav>
+    <p id="no-results" hidden>Nenhuma aula encontrada.</p>
+    <div class="sidebar-bottom"><div class="progress-heading"><span>Seu progresso de leitura</span><strong id="progress-label">0/4</strong></div><progress id="progress" max="4" value="0"></progress><small>Salvo neste navegador</small><button id="reset-progress" class="text-button">Reiniciar progresso</button></div>
+    <a class="sidebar-guide" href="#guia">↗ &nbsp; Como usar este laboratório</a>
+  </aside>
+  <div class="main-shell">
+    <header class="topbar"><button class="menu-button" id="menu-button" aria-controls="sidebar" aria-expanded="false" aria-label="Abrir menu de aulas">☰</button><div class="breadcrumb">Laboratório <span>/</span> <strong id="breadcrumb">Fundamentos</strong></div><div class="topbar-right"><span class="desktop-note">DO LEGADO À AUTONOMIA</span><span class="environment"><span class="live-dot"></span> Ambiente de aprendizado</span></div></header>
+    <main id="lesson-content" tabindex="-1"></main>
+    <footer><span>ANFX / lab <span class="footer-muted">— construir, entender, evoluir.</span></span><span>Banco fictício · Código real · Aprendizado contínuo</span></footer>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+{
+  "name": "anfx-lab",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Portal didático do Banco ANFX em HTML, CSS e JavaScript sem dependências de runtime",
+  "scripts": {"start": "node server.mjs", "check": "node --check dist/app.js && node --check dist/lessons.js && node --check server.mjs && node validate.mjs"}
+}
